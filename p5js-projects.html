@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehmet Murat Budak - P5.js Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="p5js-projects.html">P5.js Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>P5.js Projects</h1>
+        
+        <section id="animated-circle">
+            <h2>Animated Circle</h2>
+            <div id="circle-sketch-holder"></div>
+            <p>Move your mouse over the canvas to change the circle's color and position.</p>
+        </section>
+
+        <section id="pattern-generator">
+            <h2>Pattern Generator</h2>
+            <div id="pattern-sketch-holder"></div>
+            <p>Click on the canvas to generate a new pattern.</p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/mbudak21/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/mbudak21" target="_blank">GitHub</a>
+    </footer>
+
+    <script src="p5js-projects/circle-sketch.js"></script>
+    <script src="p5js-projects/pattern-sketch.js"></script>
+    <script>
+        new p5(circleSketch, 'circle-sketch-holder');
+        new p5(patternSketch, 'pattern-sketch-holder');
+    </script>
+</body>
+</html>

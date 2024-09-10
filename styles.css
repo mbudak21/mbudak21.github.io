@@ -1,0 +1,129 @@
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--base);
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--surface0);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: var(--blue);
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#clock {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: var(--green);
+}
+
+#download-cv {
+    background-color: var(--mauve);
+    color: var(--base);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download-cv:hover {
+    background-color: var(--pink);
+}
+
+#github-repos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.repo-card {
+    background-color: var(--surface1);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.repo-card h3 {
+    margin-top: 0;
+    color: var(--peach);
+}
+
+.repo-card a {
+    color: var(--sky);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--surface0);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--text);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
