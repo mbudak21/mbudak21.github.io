@@ -1,0 +1,3 @@
+[submodule "p5js-projects/noise-visualization"]
+	path = p5js-projects/noise-visualization
+	url = https://github.com/mbudak21/perlin-noise
