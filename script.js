@@ -33,5 +33,5 @@ window.addEventListener('load', fetchGitHubRepos);
 
 // Handle CV download
 document.getElementById('download-cv').addEventListener('click', function() {
-    window.open('docs/MehmetMuratBudak_CV_30-10-24.pdf', '_blank');
+    window.open('docs/MehmetMuratBudak_CV_14-11-24.pdf', '_blank');
 });
